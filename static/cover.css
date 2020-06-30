@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background: black;
+    overflow: hidden;
+    
+}
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+video {
+   /* override other styles to make responsive */
+  max-width: 90vw   !important;
+  max-height: 65vh   !important;
+}
